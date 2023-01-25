@@ -1,0 +1,29 @@
+.banner {
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+}
+h1 {
+font-size: 4.5rem;
+
+}
+.color-overlay {
+position: absolute;
+width: 100%;
+background-color: rgba(0,0,0,.2);
+}
+
+@media (max-width:576px) {
+    .banner {
+        min-height: 30vh;   
+    }
+   h1{
+    font-size: 1rem;
+   }
+   p, form {
+    font-size: .5rem;
+   }
+    
+}

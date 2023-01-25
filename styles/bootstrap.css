@@ -182,11 +182,11 @@
   box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+  @media (prefers-reduced-motion: no-preference) { 
   :root {
-    scroll-behavior: smooth;
+    scroll-behavior:auto ;
   }
-}
+} 
 
 body {
   margin: 0;
@@ -3182,7 +3182,7 @@ textarea.form-control-lg {
 }
 
 .btn-outline-success {
-  --bs-btn-color: #B68C5A;
+  --bs-btn-color: #6cccc6;
   --bs-btn-border-color: #B68C5A;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #B68C5A;
@@ -4041,7 +4041,7 @@ textarea.form-control-lg {
     padding-left: var(--bs-navbar-nav-link-padding-x);
   }
   .navbar-expand-sm .navbar-nav-scroll {
-    overflow: visible;
+    overflow: hidden;
   }
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;

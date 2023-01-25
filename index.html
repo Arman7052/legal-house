@@ -18,15 +18,15 @@
         <div>
             <!-- navbar  -->
 
-            <nav class="navbar navbar-expand-lg bg-body-tertiary container">
-                <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class=" container-sm">
                     <img src="./images/logo2.png" alt="">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="container collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -46,15 +46,55 @@
 
 
                         </ul>
-
-                        <button class="btn btn-outline-success ms-2" type="">Free Consultation </button>
+                        <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                              Free Consultancy
+                            </button>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Talk about your problem</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    ...
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-outline-success">Save changes</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
 
                     </div>
                 </div>
             </nav>
         </div>
+        <!-- Banner -->
+       <section class="container">
+            <div class="banner" 
+            style="background-image: url(./images/banner.png);">
+                <div class="color-overlay  d-flex flex-column p-2 justify-content-center align-items-center">
+                    <h1 class="pt-5">We Provide Effective <br>Legal Solutions</h1>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority <br>have suffered alteration in some form, by injected humour.</p>
+                    <form class="d-flex pb-1" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                </div>
+            </div>
+
+       </section>
     </header>
-    <!-- js file     -->
+
+
+
+
+    <!-- js file  -->
     <script src="./js/bootstrap.js"></script>
 </body>
 
